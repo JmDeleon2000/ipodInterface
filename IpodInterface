@@ -1,13 +1,14 @@
-public interface IpodInterface { //A la mara que andaba metiendo pausa, agregar y otras ondas que nada que ver. Dignense a leer el .pdf
-	public void volumen(int vol);
-	public String[] canciones();
-	public String[] favoritas();
-	public void onOff();
-	public void bloquear();
-	public void desbloquear();
-	public void next();
-	public void previous();
-	public void play(int index);
-	public String estado();
-	public void anadirFavoritas(int index);
+public interface IpodInterface { //A la mara que andaba metiendo pausa y agregar otras ondas que nada que ver. Dignense a leer el .pdf
+	public void volumen(int vol);				//Cambia el volúmen. Lo pueden hacer de varias maneras con esta función.
+	public String[] canciones();				//Devuelve el listado de canciones.
+	public String[] favoritas();				//Devuelve el listado de canciones favoritas.
+	public void onOff();  					//Apaga/enciende el Ipod.
+	public void bloquearDesbloquear(); 			//Bloquea o desbloquea el Ipod.
+	public void next();      				//Toca la canción previa.
+	public void previous();   				//Toca la canción siguiente.
+	public void play(int index);  				//Toca una canción especifica.
+	public String estado(); 				//Muestra si el Ipod está apagado, bloqueado o desbloqueado. Además de qué canción esta tocando.
+	public void anadirFavorita(int index); 			//Esta añade una canción a favoritas.
+	public void eliminarFavorita(int index); 		//Esta borra uan canción de favoritas.
+	public cambiarCancion(int index, String nombre); 	//Esta reemplaza una cancion con otra.
 }
