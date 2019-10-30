@@ -10,5 +10,5 @@ public interface IpodInterface { //A la mara que andaba metiendo pausa y agregar
 	public String estado(); 				//Muestra si el Ipod está apagado, bloqueado o desbloqueado. Además de qué canción esta tocando.
 	public void anadirFavorita(int index); 			//Esta añade una canción a favoritas.
 	public void eliminarFavorita(int index); 		//Esta borra uan canción de favoritas.
-	public cambiarCancion(int index, String nombre); 	//Esta reemplaza una cancion con otra.
+	public void cambiarCancion(int index, String nombre); 	//Esta reemplaza una cancion con otra.
 }
