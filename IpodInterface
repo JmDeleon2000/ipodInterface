@@ -1,4 +1,4 @@
-public interface IpodInterface { //A la mara que andaba metiendo pausa, agregar y otras ondas. Dignense a leer el .pdf
+public interface IpodInterface { //A la mara que andaba metiendo pausa, agregar y otras ondas que nada que ver. Dignense a leer el .pdf
 	public void volumen(int vol);
 	public String[] canciones();
 	public String[] favoritas();
@@ -9,4 +9,5 @@ public interface IpodInterface { //A la mara que andaba metiendo pausa, agregar 
 	public void previous();
 	public void play(int index);
 	public String estado();
+	public void anadirFavoritas(int index);
 }
