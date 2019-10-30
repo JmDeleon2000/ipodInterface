@@ -1,0 +1,12 @@
+public interface IpodInterface { //A la mara que andaba metiendo pausa, agregar y otras ondas. Dignense a leer el .pdf
+	public void volumen(int vol);
+	public String[] canciones();
+	public String[] favoritas();
+	public void onOff();
+	public void bloquear();
+	public void desbloquear();
+	public void next();
+	public void previous();
+	public void play(int index);
+	public String estado();
+}
