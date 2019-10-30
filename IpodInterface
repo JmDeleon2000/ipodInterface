@@ -1,5 +1,5 @@
 public interface IpodInterface { //A la mara que andaba metiendo pausa y agregar otras ondas que nada que ver. Dignense a leer el .pdf
-	public void volumen(int vol);				//Cambia el volúmen. Lo pueden hacer de varias maneras con esta función.
+	public void volumen(float vol);				//Cambia el volúmen. Lo pueden hacer de varias maneras con esta función.
 	public String canciones();				//Devuelve el listado de canciones.
 	public String favoritas();				//Devuelve el listado de canciones favoritas.
 	public void onOff();  					//Apaga/enciende el Ipod.
